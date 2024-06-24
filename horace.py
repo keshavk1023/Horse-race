@@ -11,11 +11,11 @@ import numpy as np
 from sklearn.impute import SimpleImputer
 import os
 
-os.chdir("C:\\Users\\jeetg\\code\\horse race prediction")
+os.chdir("C:\\Users\\keshavk\\code\\horse race prediction")
 with open('model.pkl', 'rb') as f:
     clf = pickle.load(f)
 
-os.chdir("C:\\Users\\jeetg\\code\\horse race prediction\\data")
+os.chdir("C:\\Users\\keshavk\\code\\horse race prediction\\data")
 r_d =  pd.read_csv("race.csv")
 h_d = pd.read_csv("horse.csv")
 f = pd.read_csv("forward.csv")
